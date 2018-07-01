@@ -2,17 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 
 .menu-container {
   display: flex;
-  justify-content: center;
-  color: #fff;
-  background-color: #5995DA;  /* Blue */
-  padding: 20px 0;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 10px;
 }
 
 .menu {
-  border: 1px solid #fff;  /* For debugging */
+  border: 1px solid #fff;
   width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lnr {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
