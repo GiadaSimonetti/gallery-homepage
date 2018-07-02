@@ -38,6 +38,7 @@ html {
 
 .section-container {
   margin-bottom: 4em;
+  background-color: yellow
 }
 
 .menu-container {
@@ -99,11 +100,29 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: magenta;
 }
 
 .info {
   display: flex;
   justify-content: flex-end;
+}
+
+.news-events-container{
+  display: flex;
+  justify-content: space-between;
+  line-height: 2em;
+  flex-wrap: wrap;
+}
+
+.events-col {
+  align-self: auto;
+  flex: 0 1 350px;
+}
+
+.event-pictures {
+  width: 350px;
+  height: 350px;
 }
 
 .channel-container{
@@ -115,8 +134,6 @@ h1 {
 }
 
 .video {
-  /* max-width: 100%;
-  display: block; */
   position: absolute;
   top: 0;
   left: 0;
@@ -131,7 +148,7 @@ h1 {
 }
 
 .artists-col {
-  justify-content: space-between;
+  align-self: auto;
 }
 
 a:link, a:visited {
