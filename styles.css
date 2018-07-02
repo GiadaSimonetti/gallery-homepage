@@ -86,7 +86,7 @@ h1 {
 }
 
 .author-title {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 hr {
@@ -96,6 +96,43 @@ hr {
   border-top: 1px solid #C8C8C8;
   margin: 1em 0;
   padding: 0;
+}
+
+.contacts-socialmedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#newsletter,
+#contact,
+#press-rooms {
+  padding-right: 1.5em;
+  font-weight: bolder;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#facebook,
+#twitter,
+#youtube {
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  margin: 0.7em 0;
 }
 
 .footer {
