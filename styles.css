@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family:"Hero";
+  font-size: 18px;
 }
 /*
 *,
@@ -77,6 +78,7 @@ h1 {
 .gallery-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 1em;
 }
 
 #main-image {
@@ -132,6 +134,7 @@ h1 {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
+  margin-bottom: 1em;
 }
 
 .video {
@@ -158,8 +161,9 @@ a:link, a:visited {
     cursor: pointer;
 }
 
-a:link:active, a:visited:active {
+a:link:active, a:visited:active, a:hover {
     color: black;
+    text-decoration: underline;
 }
 
 .section-title{
@@ -248,4 +252,10 @@ li{
 #terms-of-sale,
 #privacy-notice {
   margin-right: 10px;
+}
+
+#cookies-policy a,
+#terms-of-sale a,
+#privacy-notice a {
+  color: #fff;
 }
