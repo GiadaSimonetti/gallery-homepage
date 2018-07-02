@@ -89,6 +89,21 @@ h1 {
   font-weight: bolder;
 }
 
+.section-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.view-all {
+  display: flex;
+  justify-content: flex-end;
+}
+
 hr {
   display: block;
   height: 1px;
@@ -102,6 +117,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 .contacts {
